@@ -15,7 +15,7 @@ Equivalent to: `gcc -Wall -Wextra src/main.c -o calculator -lm`
 
 Run: `make run`
 or
-Run: `echo "1+1" | ./calculator `
+Run: `echo "1+1" | ./calculator`
 
 
 ### Clean binary
