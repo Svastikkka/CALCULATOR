@@ -181,11 +181,8 @@ int main(){
         return -1;
     }
 
-    printf("SVASTIKKKA CALCULATOR\n");
-    printf("ENTER THE EXPRESSION: ");
-
     char *expression = readline();
-    printf("ANS: %f",calculate(expression));
+    printf("%f",calculate(expression));
 
     free(stack_values);
     free(stack_operators);
